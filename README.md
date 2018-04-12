@@ -1,1 +1,0 @@
-# esri-webappbuilder-widget-batch-upload
