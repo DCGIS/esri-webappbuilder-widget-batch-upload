@@ -12,6 +12,8 @@ After a user chooses the upload file, a field mapping table will appear near the
 
 Before getting started extending this widget, please review the Esri documentation at: [https://github.com/Esri/generator-esri-appbuilder-js](https://github.com/Esri/generator-esri-appbuilder-js)
 
+To download the widget to import directly into Web AppBuilder for ArcGIS Developer edition, visit the download page [here](https://dakotacounty.maps.arcgis.com/home/item.html?id=c7baf9ffd6f8486f92191f64a3be723e)
+
 Widget developed by: [North Point Geographic Solutions](http://www.northpointgis.com/)
 
 Version 1.0.0 - 3/29/2018
