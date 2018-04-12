@@ -1,0 +1,25 @@
+{
+  "name": "BatchUpload",
+  "label": "Batch Upload",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "0.0.1",
+  "wabVersion": "2.3",
+  "author": "",
+  "description": "A custom Web AppBuilder widget.",
+  "copyright": "",
+  "license": "ISC",
+  "properties": {
+    "inPanel": true,
+    "hasLocale": true,
+    "hasStyle": true,
+    "hasConfig": true,
+    "hasUIFile": true,
+    "hasSettingPage": true,
+    "hasSettingUIFile": true,
+    "hasSettingLocale": true,
+    "hasSettingStyle": true,
+    "IsController": false
+  }
+}

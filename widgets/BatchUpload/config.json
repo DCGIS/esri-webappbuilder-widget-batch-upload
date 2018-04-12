@@ -1,0 +1,7 @@
+{
+  "maxRecordCount": 1000,
+  "layerInfo": {
+    "name": "Addresses",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/6961da74cd6a43ed9286564b59a49b80/rest/services/MetroGIS/AddressEditor4/FeatureServer/0"
+  }
+}

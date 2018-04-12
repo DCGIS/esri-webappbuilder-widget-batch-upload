@@ -1,0 +1,39 @@
+<div>
+  <div class="browse-or-drop">
+    <div class="drop-container" data-dojo-attach-point="dropContainer">
+      <div class="drop-area" data-dojo-attach-point="dropArea">
+        <div class="supported-file-types" data-dojo-attach-point="supportedFileTypes"></div>
+        <div class="or">${i18n.addFromFile.dropOrBrowse}</div>
+        <form class="file-form" enctype="multipart/form-data" method="post" data-dojo-attach-point="fileForm">
+          <label for="${id}_file" class="jimu-btn" data-dojo-attach-point="uploadLabel">${i18n.addFromFile.browse}</label>
+          <input id="${id}_file" name="file" type="file" style="display:none" data-dojo-attach-point="fileNode" />
+        </form>
+        <a href="#" class="drop-area-hint" data-dojo-attach-point="hintButton">
+          <i class="esri-icon-question"></i>
+        </a>
+        <span class="upload-arrow"></span>
+      </div>
+    </div>
+  </div>
+  <div class="add-features" data-dojo-attach-point="addButtonDiv">
+    <a class="jimu-btn" href="javascript:void(0)" data-dojo-attach-point="addButton" data-dojo-attach-event="onClick: addFeaturesClicked">${i18n.addFeatures}
+    </a>
+    <span class="message" data-dojo-attach-point="messageNode"></span>
+  </div>
+  <div class="delete-features" data-dojo-attach-point="deleteButtonDiv">
+    <a class="jimu-btn" href="javascript:void(0)" data-dojo-attach-point="deleteButton" data-dojo-attach-event="onClick: deleteFeaturesClicked">${i18n.deleteFeatures}
+    </a>
+  </div>
+  <div class="remove-features" data-dojo-attach-point="removeButtonDiv">
+    <a class="jimu-btn" href="javascript:void(0)" data-dojo-attach-point="removeButton" data-dojo-attach-event="onClick: removeFeaturesTempClicked">${i18n.clearFeatures}
+    </a>
+  </div>
+  <div data-dojo-attach-point="fieldsTable">
+    <table class="jimu-simple-table table" data-dojo-attach-point="fieldsTableAll">
+     <tr class="head-section table-header">
+       <th class="simple-table-field">${i18n.fieldsPage.fieldsSettingsTable.fieldSource}</th>
+       <th class="simple-table-field">${i18n.fieldsPage.fieldsSettingsTable.fieldName}</th>
+     </tr>
+    </table>
+  </div>
+</div>
